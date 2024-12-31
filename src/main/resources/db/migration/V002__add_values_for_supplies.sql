@@ -1,0 +1,11 @@
+INSERT INTO suppliers (supplierId, name, details, RFC, phone, createdAt, updatedAt) VALUES 
+(gen_random_uuid(), 'Comercializadora Limoncito', 'Proveedor especializado en cítricos y frutas frescas.', 'CL123456789', '55-1234-5678', '2024-12-30 17:40:33.765', '2024-12-30 17:40:33.765'),
+(gen_random_uuid(), 'Distribuciones Sol y Mar', 'Distribuidor mayorista de productos de playa y verano.', 'DSM987654321', '55-2345-6789', '2024-12-30 17:42:15.100', '2024-12-30 17:42:15.100'),
+(gen_random_uuid(), 'Tecnología Verde', 'Venta de dispositivos electrónicos enfocados en sustentabilidad.', 'TV98765432', '55-3456-7890', '2024-12-30 17:43:45.234', '2024-12-30 17:43:45.234'),
+(gen_random_uuid(), 'Alimentos Naturales S.A.', 'Productos alimenticios orgánicos y saludables.', 'AN543216789', '55-4567-8901', '2024-12-30 17:45:00.500', '2024-12-30 17:45:00.500'),
+(gen_random_uuid(), 'Construcciones ABC', 'Suministro de materiales de construcción y reformas.', 'CA234567890', '55-5678-9012', '2024-12-30 17:46:12.400', '2024-12-30 17:46:12.400'),
+(gen_random_uuid(), 'Muebles del Valle', 'Fabricante y distribuidor de muebles para oficina y hogar.', 'MV11223344', '55-6789-0123', '2024-12-30 17:47:22.675', '2024-12-30 17:47:22.675'),
+(gen_random_uuid(), 'Distribuidora La Vanguardia', 'Distribución de productos cosméticos y de cuidado personal.', 'DL99887766', '55-7890-1234', '2024-12-30 17:48:30.890', '2024-12-30 17:48:30.890'),
+(gen_random_uuid(), 'Autopartes El Camino', 'Venta de autopartes y repuestos para vehículos.', 'AE44332211', '55-8901-2345', '2024-12-30 17:49:10.250', '2024-12-30 17:49:10.250'),
+(gen_random_uuid(), 'Equipos y Herramientas S.A.', 'Suministro de equipos industriales y herramientas profesionales.', 'EH66778899', '55-9012-3456', '2024-12-30 17:50:50.315', '2024-12-30 17:50:50.315'),
+(gen_random_uuid(), 'Ropa y Accesorios Xpress', 'Venta de ropa y accesorios de moda para toda la familia.', 'RX99882211', '55-0123-4567', '2024-12-30 17:51:35.420', '2024-12-30 17:51:35.420');
